@@ -1,18 +1,5 @@
 #!/bin/bash
-# Replace the "xxxxx" with the required values
-# Author: @ppremk
 
-# Script to create GitHub Teams in bulk on GitHub.com Organization
-# PAT Tokens needs to have the correct scope to be able to create teams in an organization
-# Teams are added as an Array. Teams are created as stand alone teams. Team relationship is not defined
-
-# To run the script:
-#
-# - Update VARS section in script
-# - chmod +x script.sh
-# - ./script.sh
-
-# VARS
 orgname="xxx" 
 pattoken="xxxxxxx"
 teams=("team-name-1" "team-name-2")
