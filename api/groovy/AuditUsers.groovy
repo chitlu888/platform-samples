@@ -16,7 +16,7 @@
 import org.kohsuke.github.GitHub
 import groovyx.net.http.RESTClient
 import static groovyx.net.http.ContentType.*
-import groovy.json.JsonOutput
+import yaml
 import org.kohsuke.github.GHMyself.RepositoryListFilter
 
 
